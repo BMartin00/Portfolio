@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Martin's software development portfolio">
+  <title>Home | Martin</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    document.documentElement.dataset.theme = localStorage.getItem("portfolio-theme") || "dark";
+  </script>
+</head>
+<body>
+<header class="navbar">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">Martin<span style="color:var(--primary)">.</span></a>
+    <nav class="nav-links"><a class="active" href="index.html">Home</a>
+<a class="" href="about.html">About</a>
+<a class="" href="skills.html">Skills</a>
+<a class="" href="projects.html">Projects</a>
+<a class="" href="contact.html">Contact</a></nav>
+    <div class="nav-actions">
+      <button class="icon-btn" data-theme-toggle aria-label="Switch theme">☾</button>
+      <button class="menu-btn" data-menu-toggle aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Software Development</div>
+      <h1>Hi, I'm <span>Martin.</span></h1>
+      <p class="lead">
+        A software development student interested in building practical,
+        reliable and user-friendly applications across web, desktop, Android and connected systems.
+      </p>
+      <div class="buttons">
+        <a class="btn btn-primary" href="projects.html">View my projects</a>
+        <a class="btn" href="about.html">More about me</a>
+      </div>
+    </div>
+    <aside class="hero-card">
+      <div class="avatar">M</div>
+      <h2>Software Development Student</h2>
+      <p style="color:var(--muted)">
+        BSc in Software Development (Mobile Apps and Connected Devices)
+      </p>
+      <ul class="quick-list">
+        <li><small>Based in</small>Ireland</li>
+        <li><small>Focus</small>Java · Web · Android · SQL</li>
+        <li><small>Portfolio</small>Projects & university work</li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">What I do</div>
+      <h2>Turning ideas into practical software.</h2>
+      <p>
+        I enjoy solving problems logically, learning new technologies and
+        turning coursework and ideas into working applications.
+      </p>
+    </div>
+    <div class="grid-3">
+      <article class="card">
+        <h3>Application Development</h3>
+        <p>Java, desktop applications, object-oriented programming and testing.</p>
+      </article>
+      <article class="card">
+        <h3>Web Development</h3>
+        <p>Responsive HTML, CSS and JavaScript websites with clean interfaces.</p>
+      </article>
+      <article class="card">
+        <h3>Connected Systems</h3>
+        <p>Android, MQTT, microcontrollers and communication between devices.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--surface)">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Selected work</div>
+      <h2>A few projects.</h2>
+    </div>
+    <div class="grid-2">
+      <article class="card project-card">
+        <div class="project-thumb">Wage Calculator</div>
+        <div class="project-body">
+          <h3>Wage After Tax Calculator</h3>
+          <p>Web application for calculating Irish PAYE, PRSI and USC estimates.</p>
+          <a class="project-link" href="projects/wage-calculator.html">View project →</a>
+        </div>
+      </article>
+      <article class="card project-card">
+        <div class="project-thumb">Inventory System</div>
+        <div class="project-body">
+          <h3>Inventory Management System</h3>
+          <p>Java Swing and MySQL application developed as a software engineering project.</p>
+          <a class="project-link" href="projects/inventory-system.html">View project →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <div>© <span data-year></span> Martin. Built from scratch.</div>
+    <div class="socials">
+      <a href="#" aria-label="GitHub">GitHub</a>
+      <a href="#" aria-label="LinkedIn">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

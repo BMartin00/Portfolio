@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Martin's software development portfolio">
+  <title>Skills | Martin</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    document.documentElement.dataset.theme = localStorage.getItem("portfolio-theme") || "dark";
+  </script>
+</head>
+<body>
+<header class="navbar">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">Martin<span style="color:var(--primary)">.</span></a>
+    <nav class="nav-links"><a class="" href="index.html">Home</a>
+<a class="" href="about.html">About</a>
+<a class="active" href="skills.html">Skills</a>
+<a class="" href="projects.html">Projects</a>
+<a class="" href="contact.html">Contact</a></nav>
+    <div class="nav-actions">
+      <button class="icon-btn" data-theme-toggle aria-label="Switch theme">☾</button>
+      <button class="menu-btn" data-menu-toggle aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="page-title">
+  <div class="container">
+    <div class="eyebrow">Skills</div>
+    <h1>Technologies I work with.</h1>
+    <p>These are starting values. Adjust the descriptions and levels to accurately reflect your abilities.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container grid-2">
+    <article class="card">
+      <h2>Programming</h2>
+      <div class="skill"><div class="skill-top"><span>Java</span><span>80%</span></div><div class="progress"><span style="--value:80%"></span></div></div>
+      <div class="skill"><div class="skill-top"><span>JavaScript</span><span>75%</span></div><div class="progress"><span style="--value:75%"></span></div></div>
+      <div class="skill"><div class="skill-top"><span>HTML / CSS</span><span>85%</span></div><div class="progress"><span style="--value:85%"></span></div></div>
+    </article>
+
+    <article class="card">
+      <h2>Databases & tools</h2>
+      <div class="skill"><div class="skill-top"><span>MySQL / SQL</span><span>75%</span></div><div class="progress"><span style="--value:75%"></span></div></div>
+      <div class="skill"><div class="skill-top"><span>Git / GitHub</span><span>80%</span></div><div class="progress"><span style="--value:80%"></span></div></div>
+      <div class="skill"><div class="skill-top"><span>JUnit / Testing</span><span>70%</span></div><div class="progress"><span style="--value:70%"></span></div></div>
+    </article>
+  </div>
+</section>
+
+<section style="background:var(--surface)">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Technology stack</div>
+      <h2>Things I've worked with.</h2>
+    </div>
+    <div class="card">
+      <span class="tag">Java</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">HTML5</span>
+      <span class="tag">CSS3</span>
+      <span class="tag">Android</span>
+      <span class="tag">MySQL</span>
+      <span class="tag">Maven</span>
+      <span class="tag">JUnit</span>
+      <span class="tag">Jenkins</span>
+      <span class="tag">SonarCloud</span>
+      <span class="tag">Git</span>
+      <span class="tag">GitHub</span>
+      <span class="tag">MQTT</span>
+      <span class="tag">ESP32</span>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <div>© <span data-year></span> Martin. Built from scratch.</div>
+    <div class="socials">
+      <a href="#" aria-label="GitHub">GitHub</a>
+      <a href="#" aria-label="LinkedIn">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Martin's software development portfolio">
+  <title>About | Martin</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    document.documentElement.dataset.theme = localStorage.getItem("portfolio-theme") || "dark";
+  </script>
+</head>
+<body>
+<header class="navbar">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">Martin<span style="color:var(--primary)">.</span></a>
+    <nav class="nav-links"><a class="" href="index.html">Home</a>
+<a class="active" href="about.html">About</a>
+<a class="" href="skills.html">Skills</a>
+<a class="" href="projects.html">Projects</a>
+<a class="" href="contact.html">Contact</a></nav>
+    <div class="nav-actions">
+      <button class="icon-btn" data-theme-toggle aria-label="Switch theme">☾</button>
+      <button class="menu-btn" data-menu-toggle aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="page-title">
+  <div class="container">
+    <div class="eyebrow">About me</div>
+    <h1>A little about my background.</h1>
+    <p>Replace this placeholder content with your final professional biography.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container grid-2">
+    <article class="card">
+      <h2>Who I am</h2>
+      <p>
+        I'm a third-year BSc Software Development student with an interest in
+        practical software development, problem solving and learning how systems
+        work from both the software and hardware sides.
+      </p>
+      <p>
+        My university work has given me experience with Java, web development,
+        databases, Android development, testing and connected-device projects.
+      </p>
+    </article>
+    <article class="card">
+      <h2>My approach</h2>
+      <p>
+        I like understanding how a system works rather than simply making it
+        appear to work. I value readable code, structured problem solving,
+        testing and learning from mistakes.
+      </p>
+      <div>
+        <span class="tag">Problem solving</span>
+        <span class="tag">Java</span>
+        <span class="tag">Web</span>
+        <span class="tag">Android</span>
+        <span class="tag">SQL</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section style="background:var(--surface)">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Experience</div>
+      <h2>Education & experience.</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="date">2024 – Present</div>
+        <h3>BSc Software Development</h3>
+        <p>Developing skills across software engineering, mobile applications, databases, web development and connected systems.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="date">2026</div>
+        <h3>ICT / Computer Repair Placement</h3>
+        <p>Practical placement involving computer repairs, builds, troubleshooting, networking, software setup and customer support.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="date">Earlier experience</div>
+        <h3>Work Experience</h3>
+        <p>Add a concise description of relevant employment and transferable skills here.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <div>© <span data-year></span> Martin. Built from scratch.</div>
+    <div class="socials">
+      <a href="#" aria-label="GitHub">GitHub</a>
+      <a href="#" aria-label="LinkedIn">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
